@@ -52,10 +52,10 @@ const Header = () => {
               </div>
             ) : (
               <div className="flex flex-row gap-4">
-                <Link href="/Sign-In">
+                <Link href="/sign-in">
                   <Button>Sign In</Button>
                 </Link>
-                <Link href="/Sign-Up">
+                <Link href="/sign-up">
                   <Button variant="secondary">Sign Up</Button>
                 </Link>
               </div>

@@ -1,17 +1,16 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
-import Header from "@/components/Header";
 
 const poppins = Poppins({
   subsets: ["latin"],
   variable: "--font-poppins",
-  weight: ["400", "700"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
 
 export const metadata: Metadata = {
-  title: "Flash Usdt",
-  description: "Get your Usdt in a flash",
+  title: "Flash USDT",
+  description: "Get your USDT in a flash",
 };
 
 export default function RootLayout({
@@ -22,8 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${poppins.variable}`}>
-        <div className="bg-primary w-full h-screen">
-          <Header />
+        <div className="bg-primary w-full h-screen font-poppins">
           {children}
         </div>
       </body>

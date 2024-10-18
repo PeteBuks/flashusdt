@@ -23,9 +23,10 @@ const Home = () => {
         <div>
           <Image
             src="/assets/image.jpg"
-            width={500}
-            height={500}
+            width={600}
+            height={600}
             alt="/header image"
+            className="rounded-xl"
           />
         </div>
       </div>
