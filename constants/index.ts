@@ -9,7 +9,7 @@ export const links = [
     },
     {
       name: "Activate License",
-      path: "/",
+      path: "/pricing",
     },
     {
       name: "Contsct",

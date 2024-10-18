@@ -19,7 +19,7 @@ const config: Config = {
     },
     colors: {
       primary: "#242424",
-      secondary: "#37db9a",
+      secondary: "#28a745",
       tertiary: "#259468",
       accent: {
         DEFAULT: "rgb(181, 45, 179, 0.7)",
